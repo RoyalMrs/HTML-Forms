@@ -4,30 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>FORM</title>
 </head>
 <body>
     <form action="" method="post">
         <!-- each field below should have a input element and a label -->
         <!-- first name -->
-        
-       
+        <fieldset>
+            <legend>Enter First and Last Name</legend>
+        <label for="first-name"></label>
+        <input id="first-name" type="text" name="first-name" required placeholder="First Name">
+        </fieldset>
+        <fieldset>
         <!-- last name -->
-        
+        <label for="last-name">Last Name</label>
+        <input id="last-name" type="text" name="last-name" required placeholder="Last Name">
+        </fieldset>
+        <fieldset>
         <!-- Date of Birth -->
-       
+       <label for="Date-of-birth">Date of Birth</label>
+       <input id="date-of-birth" type="text" name="date-of-birth" required placeholder="Date of Birth">
+        </fieldset>
         <!-- Gender -->
-        
+        <fieldset>
+            <label for="Gender">Gender</label>
+            <input id="gender" type="text" name="gender" required placeholder="Gender">
+        </fieldset>
         <!-- Address -->
-       
+       <fieldset>
+        <label for="Address">Address</label>
+        <input id="address" type="text" name="Address" required placeholder="Address"> 
+       </fieldset>
         <!-- phone number -->
-       
+       <fieldset>
+        <label for="Phone-Number">Phone Number</label>
+        <input id="Phone-Number" type="number" name="Phone-Number" required placeholder="Phone-Number">
+       </fieldset>
         <!-- email  -->
+        <fieldset>
+            <label for="Email">Email</label>
+            <input id="email" type="email" name="Email" required placeholder="Email">
+        </fieldset>
         
         <!-- Insurance -->
-        
+        <fieldset>
+            <label for="Insurance">Insurance</label>
+            <input id="Insurance" type="text" name="Insurance" required placeholder="Insurance">
+        </fieldset>
         <!-- medical history -->
-       
+        <fieldset>
+        <label for="Medical History">Medical History</label>
+        <textarea name="Medical-History" id="textarea"></textarea>
+        </fieldset>
         <!-- Submit Button -->
+        <input type="submit" value="Click Here">
     </form>
 </html>
